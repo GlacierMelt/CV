@@ -68,11 +68,11 @@ def test(net, epoch, dataLoader, testF, config):
 def adjust_lr(optimizer, epoch):
     if epoch == 0:
         lr = 1e-3
-    elif epoch == 2:
+    elif epoch == 3:
         lr = 1e-2
-    elif epoch == 100:
-        lr = 1e-3
-    elif epoch == 150:
+    elif epoch == 4:
+        lr = 5e-4
+    elif epoch == 8:
         lr = 1e-4
     else:
         return
