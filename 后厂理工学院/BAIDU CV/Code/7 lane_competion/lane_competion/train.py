@@ -72,7 +72,7 @@ def adjust_lr(optimizer, epoch):
         lr = 1e-2
     elif epoch == 4:
         lr = 5e-4
-    elif epoch == 8:
+    elif epoch == 9:
         lr = 1e-4
     else:
         return
